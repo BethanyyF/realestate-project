@@ -10,6 +10,7 @@ var indexRouter = require('./routes/index');                        //Homepage
 var propertyListingRouter = require('./routes/propertyListing');    //Property Listing
 var aboutRouter = require('./routes/about');                        //About
 var searchResultsRouter = require('./routes/searchResults');        //Search Results
+var contactRouter = require('./routes/contact');                    //Contact
 
 
 var app = express();
@@ -31,6 +32,7 @@ app.use('/', indexRouter);                              //Homepage
 app.use('/propertylisting', propertyListingRouter);     //Property Listing
 app.use('/about', aboutRouter);                         //About
 app.use('/searchresults', searchResultsRouter);         //Search Results
+app.use('/contact', contactRouter);                     //Contact
 
 
 //Catch 404 and forward to error handler
