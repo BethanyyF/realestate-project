@@ -10,7 +10,7 @@
 3. Run ```npm install```.
 4. Import the .sql file within this repo to your MySQL server and add your connection details to ```database.js```.
 5. Run start your MySQL server, otherwise you will see an error message when running the next step.
-6. Run ```npm start```.
+6. Run ```npm start```, you should receive this message 'Database connected.'.
 
 
 ## Pages setup
